@@ -1,1 +1,0 @@
-# suvrolog.github.io
