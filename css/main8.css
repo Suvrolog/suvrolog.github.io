@@ -68,10 +68,6 @@
    color: gray;
 }
 
-.container-8__label:focus {
-   color: #651FFF;
-}
-
 .container-8__text {
    width: 19.0625rem;
    margin: 0.3rem 1.25rem 1.65rem 0rem;
@@ -84,7 +80,7 @@
 .container-8__text::-webkit-input-placeholder {
    color: rgb(0, 0, 0);
 }
-.container-8__text:-moz-placeholder { 
+.container-8__text::-moz-placeholder { 
    color: rgb(0, 0, 0);
 }
 .container-8__text::-moz-placeholder {
@@ -184,6 +180,14 @@
 	display: block;
 }
 
+.container-8__text:focus {
+   border-color: #651FFF;
+}
+
+.container-8__text:focus + .container-8__label
+{
+  color: #651FFF;
+}
 
 @media screen and (max-width: 48rem) {
 

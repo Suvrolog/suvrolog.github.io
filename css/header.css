@@ -464,6 +464,15 @@
    color: rgb(0, 0, 0);
 }
 
+.form__text:focus {
+   border-color: #651FFF;
+}
+
+.form__text:focus + .form__label
+{
+  color: #651FFF;
+}
+
 .form__buttonBlock {
    background: #000000;
    display: inline-block;
@@ -552,6 +561,7 @@
 .form__text:invalid:not(:placeholder-shown) + .form__error {
    display: block;
 }
+
 
 @media screen and (max-width: 48rem) {
    .wrapper {
