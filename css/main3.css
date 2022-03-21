@@ -1,14 +1,14 @@
 /* Далее в макете идет сдвиг, не совсем понимаю, связан ли он с разрешением экрана, но я выбрал выравнивание контента по центру. В то время как в макете при сверке с perfect pixel весь контент смещен левее от центра */
 
 
-.section-3 {
+.container-3 {
    max-width: 80rem;
    min-height: 45.625rem;
    margin: 0 auto;
    font-family: 'Roboto Condensed', sans-serif;
 }
 
-.section-3__h {
+.container-3__h {
    margin-top: 4.8125rem;
    margin-left: 3.5rem;
    font-weight: 700;
@@ -17,14 +17,14 @@
    margin-bottom: 4.5625rem;
 }
 
-.section-3__flexbox {
+.container-3__flexbox {
    display: flex;
    flex-wrap: wrap;
    justify-content:space-evenly;
-   margin-left: 70px;
+   margin-left: 4.375rem;
 }
 
-.section-3__sticker-left {
+.container-3__sticker-left {
    width: 8.1875rem;
    height: 1.25rem;
    text-align: center;
@@ -38,33 +38,33 @@
    margin-bottom: 2.5rem;
 }
 
-.section-3__sticker-left::after {
+.container-3__sticker-left::after {
    display: block;
    content: '';
-   width: 4px;
-   height: 40px;
-   border-radius: 0 4px 4px 0;
-   background: radial-gradient(at 100% 50%, transparent 2px, #651FFF 2px, #651FFF);
-   background-size: 4px 6px;
+   width: 0.25rem;
+   height: 2.5rem;
+   border-radius: 0 0.25rem 0.25rem 0;
+   background: radial-gradient(at 100% 50%, transparent 0.125rem, #651FFF 0.125rem, #651FFF);
+   background-size: 0.25rem 0.375rem;
    position: absolute;
    top: 0;
-   right: 295px;
+   right: 18.4375rem;
  }
 
-.section-3__sticker-left::before {
+.container-3__sticker-left::before {
    display: block;
    content: '';
-   width: 4px;
-   height: 40px;
-   border-radius: 4px 0 0 4px;
-   background: radial-gradient(at 0% 50%, transparent 2px, #651FFF 2px, #651FFF);
-   background-size: 4px 6px;
+   width: 0.25rem;
+   height: 2.5rem;
+   border-radius: 0.25rem 0 0 0.25rem;
+   background: radial-gradient(at 0% 50%, transparent 0.125rem, #651FFF 0.125rem, #651FFF);
+   background-size: 0.25rem 0.375rem;
    position: absolute;
    top: 0;
-   left: 25px;
+   left: 1.5625rem;
  }
 
-.section-3__li {
+.container-3__li {
    font-weight: 400;
    font-size: 0.875rem;
    line-height: 1.25rem;
@@ -72,7 +72,7 @@
    list-style-type: none;
 }
 
-.section-3__li:before {
+.container-3__li:before {
       background: #000000;
       clip-path: circle(50%);
       height: 0.4375rem;
@@ -84,13 +84,13 @@
       margin-top: 0.4375rem;
 }
 
-.section-3__img {
+.container-3__img {
    margin-top: 1.875rem;
    right: 0%;
    width: 32.3125rem;
 }
 
-.section-3__leftbox {
+.container-3__leftbox {
    max-width: 32.3125rem;
    border-right: 0.0063rem solid black;
    padding-bottom: 5.75rem;
@@ -115,7 +115,7 @@
    }
 }
 
-.section-3__rightbox {
+.container-3__rightbox {
    max-width: 32.3125rem;
    opacity: 0;
 
@@ -126,7 +126,7 @@
    animation-fill-mode: forwards;
 }
 
-.section-3__button {
+.container-3__button {
    background: #000000;
    display: inline-block;
    color: #fff;
@@ -138,10 +138,10 @@
    text-decoration: none;
    font-size: 1.5rem;
    font-weight: bold;
-   margin-bottom: 15px;
+   margin-bottom: 0.9375rem;
 }
 
-.section-3__button:after {
+.container-3__button:after {
    display: inline-block;
    border-top: 1.9375rem solid transparent;
    border-left: 0.875rem solid #000000;
@@ -149,7 +149,7 @@
    height: 0;
    width: 0;
    position: absolute;
-   right: -13.5px;
+   right: -0.8438rem;
    top: 0;
    content: "";
 
@@ -172,7 +172,7 @@
    }
 }
 
-.section-3__button:hover {
+.container-3__button:hover {
    animation: speed 0.5s;
 }
 
@@ -180,12 +180,12 @@
    animation: speed 0.5s;
 }
 
-.section-3__sticker-right {
+.container-3__sticker-right {
    width: 20.0625rem;
    height: 1.25rem;
    text-align: center;
    border-color: #651FFF;
-   padding: 0.625rem 5px 0.625rem 5px;
+   padding: 0.625rem 0.3125rem 0.625rem 0.3125rem;
    background-color: #651FFF;
    color: white;
    font-size: 1.125rem;
@@ -193,40 +193,40 @@
    margin-left: -0.1875rem;
 }
 
-.section-3__sticker-right::after {
+.container-3__sticker-right::after {
    display: block;
    content: '';
-   width: 4px;
-   height: 40px;
-   border-radius: 0 4px 4px 0;
-   background: radial-gradient(at 100% 50%, transparent 2px, #651FFF 2px, #651FFF);
-   background-size: 4px 6px;
+   width: 0.25rem;
+   height: 2.5rem;
+   border-radius: 0 0.25rem 0.25rem 0;
+   background: radial-gradient(at 100% 50%, transparent 0.125rem, #651FFF 0.125rem, #651FFF);
+   background-size: 0.25rem 0.375rem;
    position: absolute;
    top: 0;
-   margin-left: 327px;
+   right: 11.6875rem;
  }
 
-.section-3__sticker-right::before {
+.container-3__sticker-right::before {
    display: block;
    content: '';
-   width: 4px;
-   height: 40px;
-   border-radius: 4px 0 0 4px;
-   background: radial-gradient(at 0% 50%, transparent 2px, #651FFF 2px, #651FFF);
-   background-size: 4px 6px;
+   width: 0.25rem;
+   height: 2.5rem;
+   border-radius: 0.25rem 0 0 0.25rem;
+   background: radial-gradient(at 0% 50%, transparent 0.125rem, #651FFF 0.125rem, #651FFF);
+   background-size: 0.25rem 0.375rem;
    position: absolute;
    top: 0;
-   left: -7px;
+   left: -0.4375rem;
  }
 
-.section-3__ul-right{
+.container-3__ul-right{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
    margin-top: 2.8125rem;
 }
 
-.section-3__right-li{
+.container-3__right-li{
    list-style-type: none;
    margin-bottom: 3.6875rem;
    margin-right: -0.75rem;
@@ -234,7 +234,7 @@
    height: 2.375rem;
 }
 
-.section-3__right-dot {
+.container-3__right-dot {
    background: #651FFF;
    border-radius: 50%;
    height: 0.625rem;
@@ -245,7 +245,7 @@
    content: "";
 }
 
-.section-3__right-li::before{
+.container-3__right-li::before{
    background: transparent;
    border: 0.4em solid #FDBF0F;
    border-radius: 50%;
@@ -259,13 +259,13 @@
    margin-top: -0.1875rem;
 }
 
-.section-3__icon {
+.container-3__icon {
    position: absolute;
    margin-top: 1.4375rem;
    width: 6.375rem;
 }
 
-.section-3__rekl{
+.container-3__rekl{
    max-width: 18.75rem;
    font-weight: 700;
    font-size: 1.125rem;
@@ -273,62 +273,99 @@
    padding: 2.1875rem 1.25rem 1.25rem 7.5rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
 
-   .section-3__leftbox {
+   .container-3__leftbox {
       border-right: 0;
-      padding-bottom: 5px;
+      padding-bottom: 0.3125rem;
    }
 
-   .section-3__ul-right {
-      margin-top: 15px;
-      margin-bottom: 0px;
+   .container-3__ul-right {
+      margin-top: 0.9375rem;
+      margin-bottom: 0rem;
    }
 
-   .section-3__li {
-      padding: 1px 20px 5px 5px;
+   .container-3__li {
+      padding: 0.0625rem 1.25rem 0.3125rem 0.3125rem;
    }
 
-   .section-3__right-li {
-      margin-bottom: 15px;
+   .container-3__right-li {
+      margin-bottom: 0.9375rem;
    }
 
-   .section-3__button {
-      margin-top: 10px;
+   .container-3__button {
+      margin-top: 0.625rem;
    }
 
-   .section-3__rightbox {
+   .container-3__rightbox {
       padding-bottom: 1.25rem;
    }
 
-   .section-3__img {
+   .container-3__img {
       width: 98%;
       margin-top: 0;
    }
 
-   .section-3__h {
-      margin: 20px;
+   .container-3__h {
+      margin: 1.25rem;
    }
 
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 30rem) {
 
-   .section-3 {
+   .container-3 {
       font-size: 0.75rem;
    }
 
-   .section-3__h {
-      font-size: 16px;
+   .container-3__h {
+      font-size: 1rem;
    }
 
-   .section-3__right-li {
-      width: 150px;
+   .container-3__button {
+      padding-right: 3.75rem;
+      padding-right: 3.75rem;
    }
 
-   .section-3__flexbox {
-      margin-left: 15px;
+   .container-3__sticker-right {
+      font-size: 0.9375rem;
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 0;
+   }
+
+   .container-3__sticker-right::after {
+      display: none;
+   }
+
+   .container-3__sticker-right::before{
+      display: none;
+   }
+
+   .container-3__sticker-left {
+      font-size: 1rem;
+   }
+
+   .container-3__sticker-left::after {
+      display: none;
+   }
+
+   .container-3__sticker-left::before{
+      display: none;
+   }
+
+   .container-3__right-li {
+      width: 9.375rem;
+      margin-right: 0%;
+   }
+
+   .container-3__right-li::before{
+      display: none;
+   }
+
+   .container-3__flexbox {
+      margin-left: 0.9375rem;
    }
 
 }

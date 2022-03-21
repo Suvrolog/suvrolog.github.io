@@ -13,7 +13,7 @@
    width: 100%;
 }
 
-.header__section {
+.header__container {
    max-width: 80rem;
    min-height: 45.1rem;
    position: relative;
@@ -50,7 +50,7 @@
 .header__ring {
    position: absolute;
    margin-left: -3.5625rem;
-   margin-top: -120px;
+   margin-top: -7.5rem;
    opacity: 60%;
    width: 46rem;
  -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)), linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,1));
@@ -74,8 +74,8 @@
    line-height: 3.5rem;
    text-transform: uppercase;
    cursor: pointer;
-   margin-left: -3px;
-   margin-top: 12px;
+   margin-left: -0.1875rem;
+   margin-top: 0.75rem;
 }
 
 
@@ -118,12 +118,12 @@
    list-style-type: none;
    z-index: 10;
    text-decoration: none;
-   margin-top: 20px;
-   min-height: 86px;
+   margin-top: 1.25rem;
+   min-height: 5.375rem;
 }
 
 .menu__li {
-   height: 20px;
+   height: 1.25rem;
 }
 
 .menu__link {
@@ -222,13 +222,13 @@
 
 .header__aliimg {
    position: absolute;
-   margin-top: 108px;
+   margin-top: 6.75rem;
    z-index: 12;
 }
 
 .header__aliimg-text{
    padding-right: 1.25rem;
-   font-size: 54px;
+   font-size: 3.375rem;
    font-style: normal;
    font-weight: bold;
    letter-spacing: 0em;
@@ -241,7 +241,7 @@
    position: absolute;
    font-size: 1.375rem;
    max-width: 22.625rem;
-   margin-top: 290px;
+   margin-top: 18.125rem;
    z-index: 12;
 }
 
@@ -270,7 +270,7 @@
    height: 0;
    width: 0;
    position: absolute;
-   right: -13.5px;
+   right: -0.8438rem;
    top: 0;
    content: "";
 }
@@ -297,7 +297,7 @@
 }
 
 .header__aliimg-text {
-   font-size: 32px;
+   font-size: 2rem;
 }
 
 .adress__zvonok:hover {
@@ -553,19 +553,19 @@
    display: block;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
    .wrapper {
-      font-size: 14px;
+      font-size: 0.875rem;
    }
-   .header__section {
-      min-height: 401.6px;
+   .header__container {
+      min-height: 25.1rem;
    }
 
   .adress__row {
      display: flex;
      flex-direction: column;
      justify-content: center;
-     margin-top: -40px;
+     margin-top: -2.5rem;
   }
 
   .header__ring {
@@ -587,24 +587,26 @@
    }
 
    .header__aliimg {
-      margin-top: 90px;
-      margin-left: 15px;
+      margin-top: 5.625rem;
+      margin-left: 0.9375rem;
    }
 
    .header__aliimg-text {
       text-align: left;
-      margin-bottom: 5px;
-      border-left: 15px;
+      margin-bottom: 0.3125rem;
+      border-left: 0.9375rem;
+      font-size: 1.125rem;
+      margin-top: 1.25rem;
    }
 
    .header__lozung {
-      margin-top: 220px;
-      margin-left: 15px;
+      margin-top: 13.75rem;
+      margin-left: 0.9375rem;
    }
    
    .header__button-ali {
-      margin-top: -200px;
-      margin-left: 15px;
+      margin-top: -12.5rem;
+      margin-left: 0.9375rem;
    }
 
    .header__aliimg-pic {
@@ -616,7 +618,7 @@
    }
 
    .header__aliimg-pic {
-      width: 355px;
+      width: 22.1875rem;
    }
 
    .menu {
@@ -627,7 +629,7 @@
       top: 0;
       width: 100%;
       z-index: 100;
-      width: 60px;
+      width: 3.75rem;
    }
 
    .menu__label {
@@ -659,8 +661,8 @@
 
    .menu__label .menu-icon {
       float: right;
-      width: 30px;
-      height: 7px;
+      width: 1.875rem;
+      height: 0.4375rem;
    }
 
    .menu-icon:before,
@@ -700,7 +702,7 @@
       position: fixed;
       right: 0;
       top: 0;
-      width: 250px;
+      width: 15.625rem;
       z-index: -1;
       overflow: hidden;
       opacity: 0.9;
@@ -713,7 +715,7 @@
       max-height: 0;
       opacity: 0;
       overflow: hidden;
-      padding-left: 15px;
+      padding-left: 0.9375rem;
       display: flex;
       flex-flow: column;
       width: 15.625rem;
@@ -727,7 +729,7 @@
    }
 
    .menu__input:checked ~ .menu__text {
-      margin: 32px;
+      margin: 2rem;
       max-height: inherit;
       opacity: 1;
    }
@@ -744,6 +746,10 @@
    .menu__link:hover {
       text-decoration: underline;
    }
+   .wrapper {
+      min-width: 38.125rem;
+      overflow: hidden;
+   }
 
    .adress__zvonok {
       display: none;
@@ -751,10 +757,18 @@
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 30rem) {
    .header {
       font-size: 0.75rem;
    }
 
+   .wrapper {
+      min-width: 20rem;
+      overflow: hidden;
+   }
+
+   .header__aliimg-pic {
+      width: 15.625rem;
+   }
 }
 

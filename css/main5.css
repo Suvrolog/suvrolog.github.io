@@ -1,57 +1,57 @@
-.section-5 {
+.container-5 {
    background: #F5F5F5;
    width: 100%;
-   height: 765px;
+   height: 47.8125rem;
    font-family: 'Roboto Condensed', sans-serif;
    overflow: hidden;
    position: relative;
-   margin-top: 100px;
+   margin-top: 6.25rem;
 }
 
-.section-5__img-pic {
+.container-5__img-pic {
    width: 32.5rem;
    justify-content: center;
    position: absolute;
    bottom: 0;
    left: 50%;
    transform: translateX(-50%);
-   margin-bottom: -20px;
+   margin-bottom: -0.625rem;
 }
 
-.section-5__h {
-   margin-left: -95px;
+.container-5__h {
+   margin-left: -5.9375rem;
    padding-top: 3.125rem;
 }
 
-.section-5__content {
-   max-width: 980px;
-   min-height: 745px;
+.container-5__content {
+   max-width: 61.25rem;
+   min-height: 46.5625rem;
    margin: 0 auto;
 }
 
-.section-5__block {
+.container-5__block {
    padding-top: 3.5rem;
-   margin-top: 100px;
+   margin-top: 6.25rem;
 }
 
 
 
-.section-5__circle {
-    margin-left: 13px;
-    margin-top: 18px;
+.container-5__circle {
+    margin-left: 0.8125rem;
+    margin-top: 1.125rem;
     font-size: 1.5rem;
 }
 
-.section-5__number {
+.container-5__number {
    font-size: 1.5rem;
    color: white;
    font-weight: bold;
    z-index: 100;
    position: absolute;
-   margin-top: 31px;
+   margin-top: 1.9375rem;
 }
 
-.section-5__circle::after {
+.container-5__circle::after {
    background: transparent;
    border: 0.57rem solid #FDBF0F;
    border-radius: 50%;
@@ -59,162 +59,165 @@
    width: 2.62rem;
    content: "";
    display: block;
-   margin-left: -38px;
-   margin-top: -4px;
+   margin-left: -2.375rem;
+   margin-top: -0.25rem;
 }
 
 
-.section-5__circle::before {
+.container-5__circle::before {
    background: #651FFF;
    border-radius: 50%;
-   height: 37px;
-   width: 37px;
+   height: 2.3125rem;
+   width: 2.3125rem;
    position: absolute;
-   margin-left: 1px;
-   margin-top: 1px;
+   margin-left: 0.0625rem;
+   margin-top: 0.0625rem;
    content: "";
-   margin-left: -27px;
-   margin-top: 8px;
+   margin-left: -1.6875rem;
+   margin-top: 0.5rem;
 }
 
-.section-5__text {
+.container-5__text {
    display: flex;
 }
 
-.section-5__flexbox {
+.container-5__flexbox {
 
-   height: 655px;
+   height: 40.9375rem;
 }
 
-.section-5__box1 {
-    margin-top: 420px;
-    margin-left: 260px;
+.container-5__box1 {
+    margin-top: 26.25rem;
+    margin-left: 16.25rem;
     position: absolute;
-    width: 320px;
-    width: 320px;
+    width: 20rem;
 }
 
-.section-5__box2 {
+.container-5__box2 {
    position: absolute;
-   margin-top: 144px;
-    margin-left: 270px;
-    width: 320px;
+   margin-top: 9rem;
+    margin-left: 16.875rem;
+    width: 20rem;
 }
 
-.section-5__box3 {
+.container-5__box3 {
    position: absolute;
-   margin-top: 44px;
-   margin-left: 570px;
-   width: 320px;
+   margin-top: 2.75rem;
+   margin-left: 35.625rem;
+   width: 20rem;
 }
 
-.section-5__box4 {
+.container-5__box4 {
    position: absolute;
-   margin-top: 270px;
-   margin-left: 742px;
-   width: 320px;
+   margin-top: 16.875rem;
+   margin-left: 46.375rem;
+   width: 20rem;
 }
 
 
-.section-5__p1 {
-   width: 300px;
-   margin-left: -370px;
+.container-5__p1 {
+   width: 18.75rem;
+   margin-left: -23.125rem;
    text-align: right;
 }
 
-.section-5__p2 {
-   width: 300px;
-   margin-left: -370px;
+.container-5__p2 {
+   width: 18.75rem;
+   margin-left: -23.125rem;
    text-align: right;
 }
 
-.section-5__p3 {
-   width: 300px;
-   margin-left: 25px;
+.container-5__p3 {
+   width: 18.75rem;
+   margin-left: 1.5625rem;
 }
 
-.section-5__p4 {
-   width: 300px;
-   margin-left: 25px;
+.container-5__p4 {
+   width: 18.75rem;
+   margin-left: 1.5625rem;
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 73.75rem) {
    
-   .section-5__box1, .section-5__box2, .section-5__box3, .section-5__box4 {
-      margin:10px;
+   .container-5__box1, .container-5__box2, .container-5__box3, .container-5__box4 {
+      margin:0.625rem;
       position: relative;
-      width: 356.5px;
-      height: 88px;
+      width: 22.2813rem;
+      height: 5.5rem;
       background-color: white;
       box-shadow: 0rem 0.375rem 0.75rem rgb(0 0 0 / 14%), 0rem 1rem 1.5rem rgb(0 0 0 / 8%);
    }
 
-   .section-5__p1, .section-5__p2, .section-5__p3, .section-5__p4 {
-   margin-left: 20px;
-   margin-right: 0px;
+   .container-5__p1, .container-5__p2, .container-5__p3, .container-5__p4 {
+   margin-left: 1.25rem;
+   margin-right: 0rem;
    text-align: left;
    width: 100%;
    } 
 
-   .section-5__h {
+   .container-5__h {
       margin-left: 0%;
    }
 
-   .section-5__img-pic {
+   .container-5__img-pic {
       bottom: 0%;
    }
 
-   .section-5__flexbox {
+   .container-5__flexbox {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       width: 100%;
    }
 
-   .section-5__text {
-      margin: 0 10px 0 30px;
+   .container-5__text {
+      margin: 0 0.625rem 0 1.875rem;
    }
 
 }
 
-@media screen and (max-width: 768px) {
-   .section-5__box1, .section-5__box2, .section-5__box3, .section-5__box4 {
-   margin-bottom: 30px;
+@media screen and (max-width: 48rem) {
+   .container-5__box1, .container-5__box2, .container-5__box3, .container-5__box4 {
+   margin-bottom: 1.875rem;
    }
-   .section-5__flexbox {
+   .container-5__flexbox {
       flex-direction: column;
-      margin:10px auto;
+      margin:0.625rem auto;
       justify-content: flex-start;
       align-content: center;
    }
    
-   .section-5__h {
-      padding-left: 10px;
+   .container-5__h {
+      padding-left: 0.625rem;
    }
 
-   .section-5 {
-      height: 680px;
+   .container-5 {
+      height: 42.5rem;
    }
 
-   .section-5__content {
-      height: 500px;
+   .container-5__content {
+      height: 31.25rem;
    }
 
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 30rem) {
 
-   .section-5 {
+   .container-5__box1, .container-5__box2, .container-5__box3, .container-5__box4 {
+      width: 18.75rem;
+      }
+
+   .container-5 {
       font-size: 0.75rem;
    }
 
-   .section-5__h {
-      font-size: 16px;
+   .container-5__h {
+      font-size: 1rem;
    }
 
-   .section-5{
-      margin-top: 0px;
+   .container-5{
+      margin-top: 0rem;
    }
 
 }

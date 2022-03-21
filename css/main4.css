@@ -1,4 +1,4 @@
-.section-4 {
+.container-4 {
    max-width: 75.625rem;
    min-height: 18.5rem;
    margin: 0 auto;
@@ -7,14 +7,14 @@
    font-family: 'Roboto Condensed', sans-serif;
 }
 
-.section-4__head {
+.container-4__head {
    color: white;
    padding-left: 1.3125rem;
    padding-top: 3.1875rem;
    margin-top: 0%;
 }
 
-.section-4__flexbox {
+.container-4__flexbox {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
@@ -22,7 +22,7 @@
    margin-left: 1.3125rem;
 }
 
-.section-4__left {
+.container-4__left {
    display: flex;
    opacity: 0;
    animation-name: opacity;
@@ -32,7 +32,7 @@
 }
 
 
-.section-4__right {
+.container-4__right {
    display: flex;
    margin-right: 9.0625rem;
    opacity: 0;
@@ -47,7 +47,7 @@
    100%{opacity: 1;}
 }
 
-.section-4__circle {
+.container-4__circle {
    background: transparent;
    border: 0.1875em solid #ffffff;
    border-radius: 50%;
@@ -57,33 +57,33 @@
    margin-top: 1.875rem;
  }
  
-.section-4__text {
+.container-4__text {
    margin-left: 6.1875rem;
    max-width: 21.6875rem;
 }
 
-.section-4__img {
+.container-4__img {
    padding: 1.25rem 0 0 1.25rem;
    width: 1.9375rem;
 }
 
 
 
-@media screen and (max-width: 768px) {
-.section-4__head {
-   padding-top: 15px;
+@media screen and (max-width: 48rem) {
+.container-4__head {
+   padding-top: 0.9375rem;
 }
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 30rem) {
 
-   .section-4 {
+   .container-4 {
       font-size: 0.75rem;
    }
 
-   .section-4__head {
-      font-size: 16px;
+   .container-4__head {
+      font-size: 1rem;
    }
 
 }
