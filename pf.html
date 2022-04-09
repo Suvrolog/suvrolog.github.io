@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<h1>Ниже приведены задания, которые необходимо выполнить</h1>
+</head>
+<body>
+    <p><span>В папке лежат файлы, которые нужно залить на сервер. Рекомендую beget.com.</span></p>
+<p><span><b>Задание №1</b></span></p>
+<p><span>Настроить <a href="index01.html">форму</a>, в которой всего 2 поля.</span></p>
+<p><span><b>Задание №2</b></span></p>
+<p><span>Настроить <a href="index02.html">форму</a>, в которой 4 поля. Обрати внимание на тип поля "Комментарий". Используй только классы для получения значений.</span></p>
+<p><span><b>Задание №3</b></span></p>
+<p><span>Нужно справиться с двумя <a href="index03.html">формами</a>, которые отправляются с одной страницы.</span></p>
+<p><span><b>Задание №4</b></span></p>
+<p><span>Настроить <a href="index04.html">форму</a>, в которой полей несколько больше, чем в предыдущих.</span></p>
+<p><span><b>Задание №5</b></span></p>
+<p><span>Нужно настроить точно такую же <a href="index05.html">форму</a>, как из пункта 4. Клиент хочет, чтобы лид назывался "Форма-опрос". Сделать это нужно не прибегая к php-коду (используй roistatGoal.reach(), придется залезть в код сайта).</span></p>
+<p><span><b>Задание №6</b></span></p>
+<p><span><a href="index06.html">Форму</a> нужно отправлять, с помощью php-кода. Отредактируй файл subroi.php (переменные уже объявлены, задай значения, которыми заполнять поля).</span></p><br>
+<p><span><b>Поможет в решении:</b></span></p>
+<span>Документация <a href="http://help.roistat.com/pages/viewpage.action?pageId=5898354">Roistat</a> и </span>
+<a href="https://api.jquery.com/">API.jQuery</a>
+<br>
+<script>
+(function(w, d, s, h, id) {
+    w.roistatProjectId = id; w.roistatHost = h;
+    var p = d.location.protocol == "https:" ? "https://" : "http://";
+    var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init";
+    var js = d.createElement(s); js.charset="UTF-8"; js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
+})(window, document, 'script', 'cloud.roistat.com', '86d2eb07999c5a25c4116266a868666e');
+</script>
+</body>
+</html>

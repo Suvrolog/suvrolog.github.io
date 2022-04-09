@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+    <form id="forma4">
+        <span>Ваше имя:</span><br>
+        <input type="text" name="name4">
+         <br><br>
+        <span>Ваш телефон:</span><br>
+        <input type="tel" name="phone4">
+         <br><br>
+        <span>Ваш email:</span><br>
+        <input type="email" name="email4">
+         <br><br>
+        <span>Комментарий:</span><br>
+        <textarea name="comment4" rows="5" cols="45" maxlength="100"></textarea>
+         <br><br>
+        <span><b>Сейчас первая половина дня?</b></span>
+        <p><input class="rad1" name="first" type="radio" value="Yes">Да</p>
+        <p><input class="rad1" name="first" type="radio" value="No">Нет</p>
+        <span><b>Сегодня понедельник?</b></span>
+        <p><input class="rad2" name="second" type="radio" value="Yes">Да</p>
+        <p><input class="rad2" name="second" type="radio" value="No">Нет</p>
+        <span><b>Сколько дней ты уже обучаешься?</b></span>
+         <br><br>
+        <select class="study" name="study">
+        <option value="0 - 3">0 - 3</option>
+        <option value="3 - 5">3 - 5</option>
+        <option value="Более 5-ти"> < 5 </option>
+        </select>
+         <br><br>
+        <button class="button4" type="submit">Отправить</button>
+    </form>
+
+
+<script>
+ $('.button4').on('click', function() {
+    var name = 
+    var phone = $('.phone4').val();
+    var email = 
+    var comment = 
+    var firstHalf = 
+    var monday = 
+    var howManyDays = $(".study :selected").val();
+    roistatGoal.reach({name: name, phone: phone, email: email, comment: comment, text: "New Lead from {domain}}", leadName: 'Форма-опрос', fields:{
+        lead_UTM_TERM: firstHalf,
+        lead_UTM_CONTENT: monday,
+        lead_UTM_CAMPAIGN: howManyDays
+}});
+});
+</script>
+
+
+</body>
+</html>
