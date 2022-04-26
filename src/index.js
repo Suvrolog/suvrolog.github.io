@@ -70,6 +70,7 @@ myForm.addEventListener('submit', function (event) {
 
       nameInput.value = '';
       numInput.value = '';
+      return JSON.stringify(result);
       event.preventDefault();
       //т.к. у меня нет сервера, куда я могу отправить запрос - застопил чтобы не улетал в никуда
    }
