@@ -70,9 +70,10 @@ myForm.addEventListener('submit', function (event) {
 
       nameInput.value = '';
       numInput.value = '';
+      console.log(JSON.stringify(result));
       return JSON.stringify(result);
-      event.preventDefault();
-      //т.к. у меня нет сервера, куда я могу отправить запрос - застопил чтобы не улетал в никуда
+
+      //т.к. у меня нет сервера, куда я могу отправить запрос - можно застопить, чтобы не улетал в никуда - event.preventDefault();
    }
 });
 
