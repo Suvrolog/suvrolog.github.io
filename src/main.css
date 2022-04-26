@@ -1,0 +1,148 @@
+html {
+   font-size: 16px;
+}
+
+body {
+   width: 100%;
+   margin: 0 auto;
+   padding: 0;
+   position: relative;
+   background-color: white;
+   font-family: "Segoe UI", sans-serif;
+   margin: 0;
+}
+
+.eatbox__totalText {
+   margin-left: -20px;
+}
+.eatbox__type {
+   margin-top: 30px;
+   display: flex;
+   justify-content: start;
+   flex-wrap: wrap;
+   width: 100%;
+   margin: 0 -10px;
+   justify-content: center;
+}
+
+.eatbox__type-button {
+   position: absolute;
+   height: 63px;
+   width: 245px;
+   box-sizing: border-box;
+   background-color: white;
+   font-weight: bold;
+   border: 3px solid #ff0000;
+   border-radius: 40px;
+   color: rgba(255, 3, 3, 0.979);
+   text-decoration: none;
+   padding: 17px 10px 10px 10px;
+   margin-top: 50px;
+   text-align: center;
+}
+
+.eatbox__type-button:hover {
+   background-color: rgba(255, 3, 3, 0.979);
+   color: #f5f5f5;
+}
+
+.eatbox__type-button:hover {
+   background-color: rgba(255, 3, 3, 0.979);
+   color: #f5f5f5;
+}
+
+.eatbox__column:hover {
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+
+.eatbox__column {
+   width: 22.625rem;
+   height: 48.187rem;
+   margin: 25px 10px;
+   background-color: white;
+}
+.eatbox__column-img {
+   width: 22.625rem;
+   height: 19.875rem;
+}
+
+.eatbox__column-p {
+   color: #63A233;
+   text-decoration: solid;
+   text-align: start;
+   font-weight: bold;
+}
+
+.eatbox__timeeat {
+   justify-content: space-between;
+   display: flex;
+   justify-content: flex-start;
+}
+
+.eatbox__timeeat-period {
+   width: 35%;
+}
+
+.eatbox__item-img {
+   padding-right: 5px;
+}
+
+.eatbox__part {
+   margin: 20px 20px 20px 20px;
+}
+
+.eatbox__name {
+   font-weight: normal;
+}
+
+.eatbox__rectangle {
+   position: absolute;
+   right: 0;
+   margin-top: -800px;
+   z-index: -10;
+}
+
+.eatbox__food2{
+   position: absolute;
+   right: 0;
+   margin-right: 0px;
+   margin-top: -400px;
+   z-index: -1;
+}
+.eatbox__spice {
+   position: absolute;
+   right: 0;
+   margin-top: -650px;
+   z-index: -3;
+}
+
+.eatbox__svekla_list {
+   position: absolute;
+   right: 0;
+   margin-top: -620px;
+   margin-right: 120px;
+   z-index: -3;
+}
+
+.eatbox__perec2 {
+   position: absolute;
+   right: 0%;
+   margin-top: -120px;
+   z-index: -1;
+}
+
+.eatbox__svekla_list_small {
+   position: absolute;
+   right: 0;
+   margin-right: 100px;
+   margin-top: -750px;
+   z-index: -3;
+}
+
+.eatbox__ogurec {
+   position: absolute;
+   margin-top: -200px;
+   margin-left: -10px;
+}
+
