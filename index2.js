@@ -21,10 +21,12 @@ function createCol() {
    list.setAttribute('data-list-id', counterCol);
    column.appendChild(list);
 
-   let title = document.createElement('P');
-   let titleHeader = document.createTextNode("Введите название");
-   title.appendChild(titleHeader);
-   title.contentEditable = 'true';
+   let title = document.createElement('input');
+   title.placeholder="Введите название"
+   title.onblur = function() {
+      title.style.border = "none";
+    };
+   
    list.before(title);
    list.addEventListener('click', function () {
       modal.style.display = "block";
